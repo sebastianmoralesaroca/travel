@@ -1,0 +1,75 @@
+.header {
+    @include backgroundHeader ;
+    width: 90% ;
+    height: 60px ;
+    margin: auto ;
+    padding-top: 5px ;
+    display: flex ;
+    justify-content: space-between ;
+
+    .cont-logo {
+        display: inline-block ;
+
+        .logo-img {
+            @include image-logo ;
+            vertical-align: bottom ;
+        }
+
+        .logo-title {
+            display: inline ;
+            @include font-header ;
+        }
+    }
+
+    .cont-menu {
+        display: inline-block ;
+
+        .nav {
+
+            .nav-ul {
+                list-style-type: none ;
+                margin-top: 20px ;
+
+                .nav-li {
+                    float: center ;
+                    display: inline ;
+                    margin: 0px 15px 0px 15px ;
+                    @include font-menu ;
+                }
+            }
+        }
+    }
+    .menuBurguer {
+        display: none ;
+    }
+}
+
+
+// Media Mobile Default
+@media screen and (max-width: $media-small) and (orientation:portrait) {
+    .header {
+        .cont-logo {
+            .logo-img {
+                width: 30px ;
+                height: 30px ;
+            }
+            .logo-title {
+                font-size: 25px ;
+            }
+        }
+        .cont-menu {
+            .nav {
+                display: none ;
+                .nav-ul {
+                    .nav-li {
+                    }
+                }
+            }
+        }
+        .menuBurguer {
+            display: block ;
+            width: 30px ;
+            heigth: 30px ;
+        }
+    }
+}

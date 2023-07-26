@@ -1,0 +1,92 @@
+@mixin backgroundHeader {
+    background: transparent;
+}
+
+@mixin backgroundHome {
+    background:
+        linear-gradient(
+            rgba(0, 0, 0, 0.4),
+            rgba(0, 0, 0, 0.9)
+        ),
+        url($BackgroundHome);
+        background-size: cover ;
+        display:block;
+        margin:auto;
+        margin-top: -70px ;
+
+}
+
+@mixin backgroundTourHome {
+    background-color: black ;
+}
+
+@mixin backgroundCardTours {
+    .cardEsp {
+        background:
+        linear-gradient(
+            rgba(0, 0, 0, 0.4),
+            rgba(0, 0, 0, 0.6)
+        ),
+        url($cardEsp);
+        background-size: cover ;
+        display:block;
+        margin:auto;}
+
+    .cardFra {
+        background:
+        linear-gradient(
+            rgba(0, 0, 0, 0.4),
+            rgba(0, 0, 0, 0.6)
+        ),
+        url($cardFra);
+        background-size: cover ;
+        display:block;
+        margin:auto;}
+
+    .cardRom {
+        background:
+        linear-gradient(
+            rgba(0, 0, 0, 0.4),
+            rgba(0, 0, 0, 0.6)
+        ),
+        url($cardRom);
+        background-size: cover ;
+        display:block;
+        margin:auto;}
+
+    .cardEng {
+        background:
+        linear-gradient(
+            rgba(0, 0, 0, 0.4),
+            rgba(0, 0, 0, 0.6)
+        ),
+        url($cardEng);
+        background-size: cover ;
+        display:block;
+        margin:auto;}
+}
+
+@mixin background-contactHome {
+    background:
+    linear-gradient(
+        rgba(0, 0, 0, 0.9),
+        rgba(0, 0, 0, 0.5)
+    ),
+    url($backgroundCotactHome);
+    background-size: cover ;
+    display:block;
+    margin:auto;
+    margin-top: -70px ;
+}
+
+@mixin backgroundCardContactHome {
+    background:
+        linear-gradient(
+            rgba(0, 0, 0, 0.4),
+            rgba(0, 0, 0, 0.6)
+        ),
+        url($cardContact);
+        background-size: cover ;
+        display:block;
+        margin:auto;
+}

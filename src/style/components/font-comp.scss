@@ -1,0 +1,71 @@
+@mixin font-header {
+    font-family: sans-serif ;
+    font-size: 30px ;
+    font-weight: 800 ;
+    color: red ;
+}
+
+@mixin font-menu {
+    font-family: sans-serif ;
+    font-size: 15px ;
+    font-weight: 500 ;
+    color: $smoke ;
+}
+
+@mixin font-titleHome {
+    font-family: sans-serif ;
+    font-size: 65px ;
+    font-weight: 800 ;
+    color: $smoke ;
+    text-transform: uppercase ;
+}
+
+@mixin font-subtitleHome {
+    font-family: sans-serif ;
+    font-size: 17px ;
+    font-weight: 400 ;
+    color: $smoke ;
+}
+
+@mixin font-textCardHome {
+    font-family: sans-serif ;
+    font-size: 15px ;
+    font-weight: 400 ;
+    color: $smoke ;
+}
+
+@mixin font-titleTourHome {
+    font-family: sans-serif ;
+    font-size: 35px ;
+    font-weight: 600 ;
+    color: $smoke ;
+    text-transform: uppercase ;
+}
+
+@mixin font-subtitleTourHome {
+    font-family: sans-serif ;
+    font-size: 15px ;
+    font-weight: 600 ;
+    color: $smoke ;
+}
+
+@mixin font-titleCardTour {
+    font-family: sans-serif ;
+    font-size: 25px ;
+    font-weight: 600 ;
+    color: $smoke ;
+}
+
+@mixin font-titleContactHome {
+    font-family: sans-serif ;
+    font-size: 30px ;
+    font-weight: 600 ;
+    color: $smoke ;
+}
+
+@mixin font-subtitleContcatHome {
+    font-family: sans-serif ;
+    font-size: 20px ;
+    font-weight: 400 ;
+    color: $smoke ;
+}

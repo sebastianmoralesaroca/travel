@@ -1,0 +1,16 @@
+@mixin card-tourHome {
+    background-color: red;
+    width: 100% ;
+    height: 350px ;
+    text-align: center ;
+
+    .titleCard-tourHome {
+        @include font-titleCardTour ;
+        margin-top: 90% ;
+        }
+
+        .btnCard-tourHome {
+            @include button-cardTour ;
+            margin-top: 10px ;
+        }
+}

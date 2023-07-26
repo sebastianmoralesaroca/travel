@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+.header {
+  width: 90%;
+  height: 60px;
+  background-color: blue;
+  margin: auto;
+  padding-top: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+.header .cont-logo {
+  display: inline-block;
+}
+.header .cont-logo .logo-img {
+  width: 50px;
+  height: 50px;
+  vertical-align: bottom;
+}
+.header .cont-logo .logo-title {
+  display: inline;
+  font-family: sans-serif;
+  font-size: 30px;
+  font-weight: 800;
+  color: black;
+}
+.header .cont-menu {
+  display: inline-block;
+}
+.header .cont-menu .nav .nav-ul {
+  list-style-type: none;
+  margin-top: 20px;
+}
+.header .cont-menu .nav .nav-ul .nav-li {
+  float: center;
+  display: inline;
+  margin: 0px 3px 0px 3px;
+}

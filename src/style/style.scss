@@ -1,0 +1,23 @@
+// base
+@import './base/ruler.scss';
+@import './base/colors-base.scss';
+@import './base/srcImage.scss';
+@import './base/mediaQueris.scss';
+
+
+// utils
+
+
+// components
+@import './components/background-comp.scss';
+@import './components/button-comp.scss';
+@import './components/font-comp.scss';
+@import './components/image-comp.scss';
+@import './components/cardComp.scss';
+
+
+//layout
+@import './layout/header.scss';
+@import './layout/home.scss';
+@import './layout/tourHome-comp.scss';
+@import './layout/contactHome.scss';

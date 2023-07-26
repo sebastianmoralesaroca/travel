@@ -1,0 +1,25 @@
+@mixin button-home {
+    border: solid 3px $smoke ;
+    border-radius: 8px ;
+    padding: 10px 30px 10px 30px;
+    background: transparent ;
+
+    a{
+        font-family: sans-serif ;
+        font-size: 15px ;
+        font-weight: 400;
+        color: $smoke ;
+    }
+}
+
+@mixin button-cardTour {
+    border: none ;
+    background: transparent ;
+
+    a{
+        font-family: sans-serif ;
+        font-size: 13px ;
+        font-weight: 400 ;
+        color: $smoke ;
+    }
+}

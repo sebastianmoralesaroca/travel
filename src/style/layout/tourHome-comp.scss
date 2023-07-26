@@ -1,0 +1,44 @@
+.tourHome {
+    @include backgroundTourHome ;
+    height: 600px ;
+    padding: 80px 10% 30px 10% ;
+
+    .titleTour-home {
+        @include font-titleTourHome ;
+        display: block ;
+        text-align: center ;
+    }
+
+    .subtitleTour-Home {
+        @include font-subtitleTourHome ;
+        display: block ;
+        text-align: center ;
+        margin-top: 15px ;
+    }
+
+    .contCard-tourHome {
+        display: grid ;
+        grid-template-columns: repeat(4, 1fr) ;
+        grid-gap: 10px ;
+        margin-top: 100px ;
+        @include backgroundCardTours ;
+
+        .card-tourHome {
+            @include card-tourHome ;
+        }
+    }
+}
+
+
+// Media Mobile Default
+@media screen and (max-width: $media-small) and (orientation:portrait) {
+    .tourHome {
+        padding: 200px 2% 0px 2% ;
+        .titleTour-home {}
+        .subtitleTour-Home {}
+        .contCard-tourHome {
+            margin-top: 60px ;
+            .card-tourHome {}
+        }
+    }
+}
